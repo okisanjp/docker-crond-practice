@@ -1,9 +1,6 @@
 FROM centos:latest
 MAINTAINER okisanjp <okisan.jp@gmail.com>
 
-# crond用のログファイル
-RUN touch /var/log/cron
-
 # crontabsをインストール
 RUN yum -y update
 RUN yum -y install crontabs
