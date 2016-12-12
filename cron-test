@@ -1,0 +1,1 @@
+* * * * * root echo "`date` : hello docker" >> /tmp/test.txt
